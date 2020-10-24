@@ -1,0 +1,6 @@
+C:\Users\solov\Desktop\Repos\MethodsOfNumbers\LaboratoryWork2\LaboratoryWork2\bin\Debug\LaboratoryWork2.exe
+C:\Users\solov\Desktop\Repos\MethodsOfNumbers\LaboratoryWork2\LaboratoryWork2\bin\Debug\LaboratoryWork2.pdb
+C:\Users\solov\Desktop\Repos\MethodsOfNumbers\LaboratoryWork2\LaboratoryWork2\obj\Debug\LaboratoryWork2.csprojAssemblyReference.cache
+C:\Users\solov\Desktop\Repos\MethodsOfNumbers\LaboratoryWork2\LaboratoryWork2\obj\Debug\LaboratoryWork2.csproj.CoreCompileInputs.cache
+C:\Users\solov\Desktop\Repos\MethodsOfNumbers\LaboratoryWork2\LaboratoryWork2\obj\Debug\LaboratoryWork2.exe
+C:\Users\solov\Desktop\Repos\MethodsOfNumbers\LaboratoryWork2\LaboratoryWork2\obj\Debug\LaboratoryWork2.pdb
