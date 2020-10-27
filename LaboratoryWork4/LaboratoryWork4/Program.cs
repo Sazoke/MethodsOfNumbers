@@ -14,8 +14,11 @@ namespace LaboratoryWork4
                 new double[] {0, 3, 9, 6, 25},
                 new double[] {0, 0, 2, 4, 5}
             };
-            foreach (var root in GetRoots(matrix))
+            var roots = GetRoots(matrix);
+            foreach (var root in roots)
                 Console.WriteLine(root);
+            Console.WriteLine();
+            CheckResult(matrix, roots);
         }
 
         private static double[][] GetCoeffs(double[][] matrix)
@@ -56,6 +59,17 @@ namespace LaboratoryWork4
                 result[i] = runThroughCoeffs[i][0] * result[i + 1] + runThroughCoeffs[i][1];
 
             return result;
+        }
+
+        private static void CheckResult(double[][] matrix, double[] roots)
+        {
+            for (int i = 0; i < matrix.Length; i++)
+            {
+                var sum = 0.0;
+                for (int j = 0; j < roots.Length; j++)
+                    sum += matrix[i][j] * roots[j];
+                Console.WriteLine("r" + (i + 1) + " = " + (matrix[i].Last() - sum));
+            }
         }
     }
 }
